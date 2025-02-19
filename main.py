@@ -11,3 +11,6 @@ manager.add_product(Product("Keyboard", 250, 7))
 # Afișare produse și valoare totală
 manager.display_products()
 print(f"Total Inventory Value: {manager.total_inventory_value()}")
+
+def remove_product(self, name):
+    self.products = [product for product in self.products if product.name != name]
