@@ -1,0 +1,3 @@
+echo "config.json" >> .gitignore
+echo "*.png" >> .gitignore
+echo "*.jpg" >> .gitignore
